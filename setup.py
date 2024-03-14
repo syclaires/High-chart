@@ -7,6 +7,7 @@ ns = {}
 with open(os.path.join(here, 'highcharts', 'version.py')) as f:
    exec(f.read(), {}, ns)
 
+
 setup(
     name='python-highcharts',
     version=ns['__version__'],
